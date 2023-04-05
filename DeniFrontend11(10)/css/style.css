@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.apple {
+    width: 80px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: beige;
+}
+table {
+    background-color: beige;
+}
