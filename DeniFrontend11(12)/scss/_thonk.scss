@@ -1,0 +1,13 @@
+.out {
+    background-color: red;
+}
+@mixin btn($bg, $pd, $cr, $t-none, $br) {
+    background-color: $bg;
+    padding: $pd;
+    color: $cr;
+    text-decoration: $t-none;
+    border-radius: $br;
+}
+.a1 {
+    @include btn(red, 20px, white, none, 10px);
+}
