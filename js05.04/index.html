@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+let man = {
+    name: 'Deni',
+    surname: 'Alikhadjiew',
+    age: 17,
+    height: 177,
+    login1: 'deni',
+    password1: 916,
+    money: 177000,
+    study: function(){
+       let login = prompt('Text your login')
+       let password = prompt('Text your password')
+
+       if(login == this.login1 && password == this.password1){
+        console.log(`Добро пожаловать ${man.name} ${man.surname} Ваш логин[${man.login1}]`)
+       }
+       else{
+        console.log(`Указанный пароль ${password} не верен. Попробуйте еще раз.`)
+       }
+        }
+    }
+
+console.log()
+man.study()
+
+
+
+    </script>
+</body>
+</html>
